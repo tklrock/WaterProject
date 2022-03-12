@@ -1,0 +1,17 @@
+﻿@page "/admin"
+
+@model WaterProject.Pages.Admin.IndexModel
+
+@{
+}
+
+
+<head>
+    <title>Water Project Admin</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <base href ="/" />
+</head>
+
+    <component type="typeof(WaterProject.Pages.Admin.Routed)" render-mode="ServerPrerendered" />
+    <script src="/_framework/blazor.server.js"></script>
+
